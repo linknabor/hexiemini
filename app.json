@@ -1,0 +1,39 @@
+{
+  "entryPagePath": "pages/wuye/index",
+  "pages": [
+    "pages/wuye/index",
+    "pages/index/index",
+    "pages/logs/logs",
+    "components/auth.js"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "\u5408\u534f\u793e\u533a",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color":"#666",
+    "selectedColor":"#f60",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/index.png",
+        "selectedIconPath":"static/images/index_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "static/images/logs.png",
+        "selectedIconPath":"static/images/logs_selected.png"
+      }
+    ]
+  },
+  "useExtendedLib": {
+    "kbone": false,
+    "weui": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
